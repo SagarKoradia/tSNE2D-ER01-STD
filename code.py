@@ -9,7 +9,7 @@ fn = r'C:\Users\DELL I5558\Desktop\Python\NSW-ER01.csv'
 my_data = genfromtxt(fn, delimiter=',')
 
 scaler = StandardScaler()
-model = KMeans(n_clusters=8)
+model = KMeans(n_clusters=4)
 pipeline = make_pipeline(scaler, model)
 scaler.fit(my_data)
 my_data_scaled = scaler.transform(my_data)
