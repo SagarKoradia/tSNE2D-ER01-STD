@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
 
-fn = r'C:\Users\DELL I5558\Desktop\Python\NSW-ER01.csv'
+fn = r'C:\Users\DELL I5558\Desktop\Python\ELEC5222\kMeans\NSW-ER01.csv'
 my_data = genfromtxt(fn, delimiter=',')
 
 scaler = StandardScaler()
